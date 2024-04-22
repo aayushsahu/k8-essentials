@@ -9,9 +9,10 @@ spec:
     - host: app.com
       http:
         paths:
-          - path: /
-            backend:
-              serviceName: my-service
-              servicePort: 8080
-
-
+        - path: /
+          pathType: Exact
+          backend:
+            service:
+              name: my-service
+              port: 
+                number: 8080
