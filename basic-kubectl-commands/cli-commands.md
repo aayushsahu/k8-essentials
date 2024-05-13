@@ -52,7 +52,7 @@
 
 `kubectl describe pod mongo-depl-{pod-name}`
 
-### delete deplyoment
+### delete deployment
 `kubectl delete deployment mongo-depl`
 
 `kubectl delete deployment nginx-depl`
